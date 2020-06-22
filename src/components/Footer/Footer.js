@@ -9,14 +9,16 @@ import '../../style/footer.css';
 
 export default function Footer() {
   return (
-    <Container fluid style={{
+    <Container 
+    fluid style={{
       backgroundImage: `url(${mainImg})`,
       backgroundPosition: 'center',
       backgroundSize: 'cover',
       backgroundRepeat: 'no-repeat',
       maxHeight: '30vh'
-    }}>
-      <Row className="pt-5">
+    }}
+    >
+      <Row className="pt-5 pb-4">
         <Col xs={3}>
           <img src={logo} className="img-fluid" alt="Publik-te logo" />
         </Col>
