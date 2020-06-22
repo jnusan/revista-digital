@@ -8,11 +8,11 @@ export default function NavigationBar() {
   return (
     <>
       <Navbar expand="lg" className="mb-3">
-        <Navbar.Brand>
+        {/* <Navbar.Brand>
           <NavLink to="/home" exact 
           className="nav-link" 
           style={{ color: 'white', borderBottom: '5px solid white' }}>Home</NavLink>
-        </Navbar.Brand>
+        </Navbar.Brand> */}
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
